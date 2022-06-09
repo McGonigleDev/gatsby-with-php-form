@@ -15,7 +15,7 @@ class Form extends React.Component {
     e.preventDefault();
     axios({
       method: "post",
-      url: 'https://your-website-domain.com/api/contact/index.php', //change this to correct endpoint 
+      url: '/api/contact/index.php', //change this to correct endpoint 
       headers: { "content-type": "application/json" },
       data: this.state
     })
